@@ -10,9 +10,9 @@
 # A copy of the GNU General Public License is available at
 # <http://www.gnu.org/licenses/>.
 
-include ../procedures/check_directory.proc
 include ../procedures/pitch_two-pass.proc
-include ../procedures/selection.proc
+include ../../plugin_utils/procedures/check_directory.proc
+include ../../plugin_selection/procedures/selection.proc
 
 form To Pitch (Hirst two-pass)...
   positive Floor_factor 0.75
