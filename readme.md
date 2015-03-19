@@ -9,5 +9,5 @@ Implements Hirst and DeLooze's utterance-specific two-pass Pitch estimation algo
 Requirements
 ------------
 
-* [utils](https://gitlab.com/cpran/utils)
-* [selection](https://gitlab.com/cpran/selection)
+* [utils](https://gitlab.com/cpran/plugin_utils)
+* [selection](https://gitlab.com/cpran/plugin_selection)
