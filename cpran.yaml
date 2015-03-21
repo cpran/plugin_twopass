@@ -4,22 +4,22 @@ Homepage: https://gitlab.com/cpran/plugin_twopass
 Version: 0.0.1
 Maintainer: José Joaquín Atria <jjatria@gmail.com>
 Depends:
-  - praat: 5.0.0+
-  - cpran/utils: 0.0.1+
-  - cpran/selection: 0.0.1+
+  praat: 5.0.0+
+  cpran/utils: 0.0.1+
+  cpran/selection: 0.0.1+
 Recommends:
 License: GPL3
 Readme: readme.md
 Description:
-  - Short: a method for utterance-specific Pitch threshold estimation
-  - Long: >
-      This plugin provides an implementation of Hirst and De Looze's two-pass
-      pitch threshold estimation, as described in Hirst (2011) and De Looze and
-      Hirst (2008).
+  Short: a method for utterance-specific Pitch threshold estimation
+  Long: >
+    This plugin provides an implementation of Hirst and De Looze's two-pass
+    pitch threshold estimation, as described in Hirst (2011) and De Looze and
+    Hirst (2008).
 
-      References:
-      Hirst, 2011. "The analysis by synthesis [...]", JoSS 1(1): 55-83
-      De Looze and Hirst, 2008. "Detecting changes in key [...]" @ Speech Prosody
-      Based on scripts available at
-      http://uk.groups.yahoo.com/neo/groups/praat-users/conversations/topics/6199
-      http://celinedelooze.com/MyHomePage/Praat.html (defunct)
+    References:
+    Hirst, 2011. "The analysis by synthesis [...]", JoSS 1(1): 55-83
+    De Looze and Hirst, 2008. "Detecting changes in key [...]" @ Speech Prosody
+    Based on scripts available at
+    http://uk.groups.yahoo.com/neo/groups/praat-users/conversations/topics/6199
+    http://celinedelooze.com/MyHomePage/Praat.html (defunct)
