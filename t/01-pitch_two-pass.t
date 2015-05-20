@@ -13,7 +13,7 @@ Remove
 selectObject: sound
 @pitchTwoPass(0.75, 1.5)
 
-@ok_formula: "numberOfSelected(""Pitch"") = 1"
+@ok_formula: "numberOfSelected(""Pitch"") = 1",
   ... "procedures creates a Pitch object"
 Remove
 
