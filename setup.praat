@@ -15,8 +15,8 @@
 
 ## Static commands:
 
-# Uncomment next line to run tests at startup
-# runScript: "run_tests.praat"
+Add menu command: "Objects", "Praat", "twopass", "CPrAN", 1, ""
+Add menu command: "Objects", "Praat", "To Pitch in batch (two-pass)...",               "twopass", 2, "scripts/batch_to_pitch_two-pass.praat"
 
 ## Dynamic commands
 
