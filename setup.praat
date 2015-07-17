@@ -14,9 +14,9 @@
 # <http://www.gnu.org/licenses/>.
 
 ## Static commands:
+nocheck Add menu command: "Objects", "Praat", "twopass", "CPrAN", 1, ""
 
-# Uncomment next line to run tests at startup
-# runScript: "run_tests.praat"
+nocheck Add menu command: "Objects", "Praat", "Batch to Pitch (two-pass)...", "twopass", 2, "scripts/batch_to_pitch_two-pass.praat"
 
 ## Dynamic commands
 
