@@ -1,0 +1,9 @@
+- v0.0.4:
+  - Added this changelog
+  - Batch script uses vieweach. New dependencies: strutils, vieweach
+- v0.0.3:
+  - Improved testing and added CI support
+- v0.0.2:
+  - Added automated tests
+- v0.0.1:
+  - First working version

@@ -1,13 +1,15 @@
 ---
 Plugin: twopass
-Homepage: https://gitlab.com/cpran/plugin_twopass
-Version: 0.0.3
+Homepage: http://cpran.net/plugins/twopass
+Version: 0.0.4
 Maintainer: José Joaquín Atria <jjatria@gmail.com>
 Depends:
   praat: 5.0.0+
   Plugins:
-    utils: 0.0.1+
-    selection: 0.0.1+
+    utils:      0.0.1+
+    selection:  0.0.1+
+    strutils:   0.0.1+
+    vieweach:   0.0.1+
     testsimple: 0.0.5+
 Recommends:
 License: GPL3
