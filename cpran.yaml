@@ -10,7 +10,7 @@ Depends:
     selection:  0.0.1+
     strutils:   0.0.1+
     vieweach:   0.0.1+
-    testsimple: 0.0.5+
+    tap:        0.0.10+
 Recommends:
 License: GPL3
 Readme: readme.md
