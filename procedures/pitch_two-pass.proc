@@ -42,6 +42,10 @@ procedure pitchTwoPass (.floor_factor, .ceiling_factor)
   #   0.75 for floor factor
   #   1.5 for ceiling factor (or 2.5 for expressive speech)
 
+  .floor   = if .floor   == undefined then  60    else .floor   fi
+  .ceiling = if .ceiling == undefined then 700    else .ceiling fi
+  .step    = if .step    == undefined then   0.01 else .step    fi
+
   .sound = selected("Sound")
 
   .first_pass = To Pitch: .step, .floor, .ceiling
