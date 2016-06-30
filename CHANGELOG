@@ -1,5 +1,9 @@
 - next: # unreleased
-  - Two-pass procedure now more modifiable by using default variables
+  - New:
+    - Two-pass procedure now more modifiable by using default 
+      variables
+  - Changed:
+    - Tests now use tap plugin
 - v0.0.4:
   - Added this changelog
   - Batch script uses vieweach. New dependencies: strutils, vieweach
