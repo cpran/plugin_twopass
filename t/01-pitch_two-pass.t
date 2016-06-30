@@ -8,14 +8,14 @@ sound = Create Sound as pure tone: "tone",
 
 runScript: "../scripts/to_pitch_two-pass.praat", 0.75, 1.5
 
-@ok_formula: "numberOfSelected(""Pitch"") = 1",
+@is: numberOfSelected("Pitch"), 1,
   ... "script creates a Pitch object")
 Remove
 
 selectObject: sound
 @pitchTwoPass(0.75, 1.5)
 
-@ok_formula: "numberOfSelected(""Pitch"") = 1",
+@is: numberOfSelected("Pitch"), 1,
   ... "procedures creates a Pitch object"
 Remove
 
