@@ -1,3 +1,5 @@
+- next: # unreleased
+  - Two-pass procedure now more modifiable by using default variables
 - v0.0.4:
   - Added this changelog
   - Batch script uses vieweach. New dependencies: strutils, vieweach
