@@ -24,6 +24,19 @@
 #
 # Copyright 2014, 2015 Jose Joaquin Atria
 
+if !variableExists("pitchTwoPass.step")
+  pitchTwoPass.step = 0.01
+endif
+
+if !variableExists("pitchTwoPass.floor")
+  pitchTwoPass.floor = 60
+endif
+
+if !variableExists("pitchTwoPass.ceiling")
+  pitchTwoPass.ceiling = 700
+endif
+
+
 procedure pitchTwoPass (.floor_factor, .ceiling_factor)
   # Recommended values:
   #   0.75 for floor factor
@@ -31,10 +44,7 @@ procedure pitchTwoPass (.floor_factor, .ceiling_factor)
 
   .sound = selected("Sound")
 
-  .floor = 60
-  .ceiling = 700
-
-  .first_pass = To Pitch: 0.01, .floor, .ceiling
+  .first_pass = To Pitch: .step, .floor, .ceiling
   .q1 = Get quantile: 0, 0, 0.25, "Hertz"
   .q3 = Get quantile: 0, 0, 0.75, "Hertz"
   removeObject: .first_pass
@@ -45,7 +55,7 @@ procedure pitchTwoPass (.floor_factor, .ceiling_factor)
   .error = if .floor >= .ceiling then 1 else 0 fi
 
   selectObject: .sound
-  .id = To Pitch: 0.01, .floor, .ceiling
+  .id = To Pitch: .step, .floor, .ceiling
 
   # References:
   # Hirst, 2011. "The analysis by synthesis [...]", JoSS 1(1): 55-83
