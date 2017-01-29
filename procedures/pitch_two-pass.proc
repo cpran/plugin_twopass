@@ -36,7 +36,6 @@ if !variableExists("pitchTwoPass.ceiling")
   pitchTwoPass.ceiling = 700
 endif
 
-
 procedure pitchTwoPass (.floor_factor, .ceiling_factor)
   # Recommended values:
   #   0.75 for floor factor
