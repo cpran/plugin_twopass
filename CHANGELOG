@@ -1,9 +1,12 @@
 - next: # unreleased
+- v0.0.5:
   - New:
     - Two-pass procedure now more modifiable by using default 
       variables
   - Changed:
     - Tests now use tap plugin
+    - CI tests use docker container
+    - Added more tests for predefined variables, and default resets
 - v0.0.4:
   - Added this changelog
   - Batch script uses vieweach. New dependencies: strutils, vieweach
