@@ -1,4 +1,7 @@
 - next: # unreleased
+- v0.0.6:
+  - Fix:
+    - Tests pass under Praat 6.0.36
 - v0.0.5:
   - New:
     - Two-pass procedure now more modifiable by using default 
